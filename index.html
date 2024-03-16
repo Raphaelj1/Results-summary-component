@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results summary component</title>
+    <link rel="shortcut icon" href="./assets/images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <header></header>
+
+    <main>
+        <div class="container">
+            <div class="result-summary">
+
+                <!-- result -->
+                <div class="your-result flex-flow" data-spacing="large">
+                    <h1 class="section-title">Your Result</h1>
+                    <div class="result">
+                        <p class="overall-score"><span>76</span>of 100</p>
+                    </div>
+                    <div class="result-remark" data-spacing="small">
+                        <p class="remark">Great</p>
+                        <p class="comment">You scored higher than 65% of the people who have taken these tests.</p>
+                    </div>
+                </div>
+
+                <!-- summary -->
+                <div class="summary flex-flow" data-spacing="large">
+                    <h2 class="section-title">Summary</h2>
+                    <div class="summary-items">
+                        <div class="summary-item" data-accent="accent-1">
+                            <h3 class="summary-item-title"><img src="./assets/images/icon-reaction.svg" alt="reaction">Reaction</h3>
+                            <p class="summary-score"><span>80</span> / 100</p>
+                        </div>
+                        <div class="summary-item" data-accent="accent-2">
+                            <h3 class="summary-item-title"><img src="./assets/images/icon-memory.svg" alt="memory"> Memory</h3>
+                            <p class="summary-score"><span>92</span> / 100</p>
+                        </div>
+                        <div class="summary-item" data-accent="accent-3">
+                            <h3 class="summary-item-title"><img src="./assets/images/icon-verbal.svg" alt="verbal">Verbal</h3>
+                            <p class="summary-score"><span>61</span> / 100</p>
+                        </div>
+                        <div class="summary-item" data-accent="accent-4">
+                            <h3 class="summary-item-title"><img src="./assets/images/icon-visual.svg" alt="visual">Visual</h3>
+                            <p class="summary-score"><span>72</span> / 100</p>
+                        </div>
+                    </div>
+                    <button>Continue</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer></footer>
+
+</body>
+
+</html>
